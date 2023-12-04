@@ -1,0 +1,47 @@
+.banner1 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://evotech-performance.com/cdn/shop/files/EVOTECH_TRI_SPEED_TRIPLE_1200RR_WEB_BANNERS_2048x.jpg?v=1653468702");
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/* style={{fontWeight:"bold", fontSize: "2rem", width: "100vw", height: "50vh", textAlign: "center", color: "white", top: "50%", left: "50%"  }} */
+
+.bannerTxt {
+    font-weight: bold;
+    font-size: 5rem;
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.bannerTxtSub {
+    font-size: 2rem;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .bannerTxt {
+        font-size: 3rem;
+    }
+
+    .banner1 {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 287px) {
+
+    .bannerTxt {
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+}
+
